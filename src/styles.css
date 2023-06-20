@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+*{
+    position:relative;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.text{
+    font-family: 'Outfit', sans-serif;
+    background:linear-gradient(97.13deg, #E9E9E9 0%, #515151 100%);
+    background-clip:text;
+    display:inline-block;
+    -webkit-text-fill-color: transparent;
+
+}
+.btn{
+    font-family: 'Outfit', sans-serif;
+    background:linear-gradient(97.13deg, #E9E9E9 0%, #515151 100%);
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+}

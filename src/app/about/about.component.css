@@ -1,0 +1,24 @@
+.about-container{
+    min-height:100vh;
+}
+.about-container #us-img{
+filter:grayscale(100%);
+opacity: 1;
+transition: opacity 0.5s ease;
+border-radius:10px;
+height:350px;
+position:absolute;
+/* left:50%; */
+
+}
+.about-container .about-heading{
+    font-size:40px;
+   
+    
+}
+.about-container #us-img:hover{
+    opacity:0.5;
+}
+.about-container #me-about-content{
+
+}
