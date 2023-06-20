@@ -1,0 +1,19 @@
+.skills-container{
+    min-height:100vh;
+}
+.skills-container .skills-heading{
+    font-size:40px;
+}
+.skills-container swiper-slide{
+    background-color:#1A1A1A;
+    height:200px;
+    object-fit:contain;
+    mix-blend-mode: darken;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+.skills-container swiper-slide img{
+   height:100px;
+   filter:grayscale(100%);
+}
