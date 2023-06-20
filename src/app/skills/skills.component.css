@@ -1,9 +1,10 @@
 .skills-container{
-    min-height:100vh;
+    min-height:400px;    
 }
 .skills-container .skills-heading{
     font-size:40px;
 }
+
 .skills-container swiper-slide{
     background-color:#1A1A1A;
     height:200px;
