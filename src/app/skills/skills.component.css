@@ -1,5 +1,6 @@
 .skills-container{
-    min-height:400px;    
+    min-height:100%;    
+    margin-bottom:50px;
 }
 .skills-container .skills-heading{
     font-size:40px;
