@@ -20,3 +20,14 @@
     text-decoration:none;
     color: #717171;
 }
+.project-container .card .card-img-left{
+    height:100px;
+    width:100px;
+    margin-left:100%;
+    transform:translate(-100%,0);
+    position:absolute;
+    filter:grayscale(100)
+}
+.project-container iframe{
+    filter:grayscale(100);
+}

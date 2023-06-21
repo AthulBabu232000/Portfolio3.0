@@ -1,0 +1,13 @@
+.logo{
+    width:50px;
+    filter:grayscale(100%);
+    color:#717171;
+}
+li a{
+    text-decoration:none;
+    color:#717171;
+}
+
+hr{
+    background-color:#717171;
+}
