@@ -1,0 +1,7 @@
+.commit-container{
+    min-height:100%;
+    margin-bottom:50px;
+}
+.commit-container .commit-heading{
+    font-size:40px;
+}
