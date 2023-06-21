@@ -6,7 +6,7 @@ filter:grayscale(100%);
 opacity: 1;
 transition: opacity 0.5s ease;
 border-radius:10px;
-height:350px;
+height:510px;
 position:absolute;
 }
 .about-container .about-heading{
@@ -17,10 +17,72 @@ position:absolute;
 .about-container #us-img:hover{
     opacity:0.5;
 }
+.about-container .btn{
+    box-shadow:none;
+}
+.about-container #me-about-content .college{
+background-color: #1a1a1a;
+display:flex;
+flex-direction:row;
+}
+.about-container #me-about-content img{
+    filter:grayscale(100%);
+    width:200px;
+}
+.about-container #me-about-content .college .college-content{
+    display:flex;
+    align-items: space-around;
+    flex-direction:column;
+    justify-content: center;
+}
+.about-container .school{
+    display:flex;
+    flex-direction:row;
+    background-color:#1a1a1a;
+}
+.about-container .school .school-img img{
+    filter:grayscale(100%);
+}
+.about-container .school .school-content{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
 
 
 @media screen and (max-width:600px){
     .about-container #me-about-image{
 display:none;
     }
+    .about-container #me-about-content .college{
+        background-color: #1a1a1a;
+        display:flex;
+        flex-direction:column;
+    
+        }
+        .about-container #me-about-content .college .college-content{
+            padding:5px;
+        }
+        .about-container #me-about-content .college .college-img img{
+            width:100%;
+        display:block;
+        margin:0 auto;
+        }
+        .about-container  .school .school-img img{
+        display:block;
+        margin:0 auto;
+        }
+        .about-container .school{
+position:relative;
+            flex-direction:column;
+        }
+        .about-container .school .school-content{
+            padding:5px;
+
+        }
+        .about-container #me-about-content img{
+            filter:grayscale(100%);
+            width:100%;
+        }
 }
