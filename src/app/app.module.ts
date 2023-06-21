@@ -10,6 +10,7 @@ import { register } from 'swiper/element/bundle';
 import { ProjectsComponent } from './projects/projects.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { CommitsComponent } from './commits/commits.component';
 // register Swiper custom elements
 register();
 const routes:Routes=[
@@ -23,7 +24,8 @@ const routes:Routes=[
     SkillsComponent,
     ProjectsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CommitsComponent
   ],
   imports: [
     BrowserModule,
