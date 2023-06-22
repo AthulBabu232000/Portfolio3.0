@@ -1,0 +1,8 @@
+.gallery-container{
+    min-height:100%;
+    margin-bottom:50px;
+
+}
+.gallery-container .gallery-heading{
+    font-size:40px;
+}

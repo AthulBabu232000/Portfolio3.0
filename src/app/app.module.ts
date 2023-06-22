@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CommitsComponent } from './commits/commits.component';
+import { GalleryComponent } from './gallery/gallery.component';
 // register Swiper custom elements
 register();
 const routes:Routes=[
@@ -25,14 +26,15 @@ const routes:Routes=[
     ProjectsComponent,
     HeaderComponent,
     FooterComponent,
-    CommitsComponent
+    CommitsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
   ],
   providers: [],
- schemas:[CUSTOM_ELEMENTS_SCHEMA],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
