@@ -9,10 +9,11 @@
 
 .text{
     font-family: 'Outfit', sans-serif;
-    background:linear-gradient(97.13deg, #E9E9E9 0%, #515151 100%);
+    /* background:linear-gradient(97.13deg, #E9E9E9 0%, #515151 100%); */
     background-clip:text;
     display:inline-block;
     -webkit-text-fill-color: transparent;
+    background-color:	#be29ec;
 
 }
 .btn{

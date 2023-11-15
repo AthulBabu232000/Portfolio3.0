@@ -4,7 +4,7 @@
 }
 
 .about-container #us-img {
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     opacity: 1;
     transition: opacity 0.5s ease;
     border-radius: 10px;
@@ -27,7 +27,7 @@
 }
 
 .about-container #me-about-content .college {
-    background-color: #1a1a1a;
+    /* background-color: #1a1a1a; */
     display: flex;
     flex-direction: row;
 }
@@ -47,11 +47,11 @@
 .about-container .school {
     display: flex;
     flex-direction: row;
-    background-color: #1a1a1a;
+    /* background-color: #1a1a1a; */
 }
 
 .about-container .school .school-img img {
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 .about-container .school .school-content {
@@ -68,7 +68,7 @@
     }
 
     .about-container #me-about-content .college {
-        background-color: #1a1a1a;
+        /* background-color: #1a1a1a; */
         display: flex;
         flex-direction: column;
 
@@ -98,7 +98,7 @@
     }
 
     .about-container #me-about-content img {
-        filter: grayscale(100%);
+        /* filter: grayscale(100%); */
         width: 100%;
     }
 }

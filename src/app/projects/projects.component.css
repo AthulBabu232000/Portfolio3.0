@@ -11,14 +11,14 @@
     gap:10px;
 }
 .project-container .card{
-    background-color:#1A1A1A;
+    /* background-color:#1A1A1A; */
     margin-top:10px;
     /* height:300px; */
  
 }
 .project-container a{
     text-decoration:none;
-    color: #717171;
+    /* color: #717171; */
 }
 .project-container .card .card-img-left{
     height:100px;
@@ -29,5 +29,5 @@
     filter:grayscale(100)
 }
 .project-container iframe{
-    filter:grayscale(100);
+    /* filter:grayscale(100); */
 }

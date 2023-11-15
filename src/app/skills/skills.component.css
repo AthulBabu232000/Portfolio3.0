@@ -7,7 +7,7 @@
 }
 
 .skills-container swiper-slide{
-    background-color:#1A1A1A;
+    /* background-color:#1A1A1A; */
     height:200px;
     object-fit:contain;
     mix-blend-mode: darken;
